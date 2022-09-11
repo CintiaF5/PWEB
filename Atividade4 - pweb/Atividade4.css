@@ -1,0 +1,93 @@
+body {
+	margin:20px;
+	background-color: #ffcdee; 
+	font-family:"Trebuchet MS", Tahoma, Arial, Verdana;
+	font-size:12px;
+	font-weight: bold;
+	color:rgb(71, 36, 3);
+}
+
+.todo {
+    width: 750px;
+	border: 1px solid rgb(178, 114, 69);
+	margin: 0 auto; 
+	font-size: 26px;
+	text-transform: uppercase;	
+}
+
+.topo {
+ 	width: 746px;
+	height: 50px;
+	border: 2px solid rgb(178, 114, 69);
+}
+
+.meio {
+   	width: 750px;
+	min-height: 465px;
+	background-color: rgb(178, 114, 69);
+}
+
+
+.esquerda {
+	float: left;
+	width: 50px;
+	min-height: 460px;
+	border: 2px solid rgb(178, 114, 69);
+    background-color: rgb(178, 114, 69);
+}
+
+.menu {
+	width: 150px;
+	height: 400px;
+}
+
+.itemMenu {
+	width: 140px;
+	height: 21px;
+	background-color: rgb(178, 114, 69);
+	padding: 0px 0px 0px 0px;
+	border-bottom: 1px solid rgb(178, 114, 69);
+}
+
+.miolo {
+	float: left;
+	width: 438px;
+	min-height: 465px;	
+    font-family: "courier";
+    font-size:30px;
+	padding: 5px 0px 5px 5px;
+}
+
+.item_miolo {
+	width: 300px;
+	height: 150px;
+	text-align: center;
+	background-color: rgb(178, 114, 69);
+	margin: 2px 5px 4px 5px;
+}
+
+.direita {
+	float: right;
+	width: 240px;
+	min-height: 440px;
+	border: 2px solid rgb(178, 114, 69);
+    background-color: burlywood;
+
+}
+
+.item_direita {
+	width: 140px;
+	height: 100px;
+	text-align: center;
+	background-color: rgb(178, 114, 69);
+	margin: 4px 5px 4px 5px;
+}
+
+.textoBrig{
+	text-align: center;
+	font-size: 14px;
+}
+
+.rodape {
+    text-align: center;
+}
