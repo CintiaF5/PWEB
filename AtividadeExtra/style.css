@@ -1,0 +1,107 @@
+.bloco1{
+    background: #004987;
+}
+
+.bloco2{
+    background: #004987;
+}
+
+.bloco3{
+    background: #004987;
+}
+
+.bloco4{
+    background: #004987;
+}
+
+.bloco5{
+    background: #004987;
+}
+
+.bloco6{
+    background: #004987;
+}
+
+body{
+    font:  150% Arial, Helvetica, sans-serif;
+}
+
+/* 150% do tamanho original ou 1,5 vezes maior*/
+
+h1 {
+    font: bold 100% Arial, Helvetica, sans-serif;
+}
+
+#pagina {
+    padding: 5px;
+    width: 960px; 
+    
+    /* tamanho mais comum usado */
+    margin: 20px auto;
+}
+
+#cabecalho{
+    height: 180px;
+}
+
+#conteudo{
+    width: 600px;
+    float: left;
+    background: #f8f8f8;
+}
+
+#lateral {
+    width: 300px;
+    float: right;
+    background: #f0efef;
+}
+
+#rodape{
+    clear: both;
+}
+
+#cabecalho, #conteudo, #lateral {
+    margin-bottom: 5px;
+}
+#pagina, #cabecalho, #conteudo, #lateral, #rodape{
+    border: solid1px #ccc;
+}
+
+/* Media queries/* /*  980px ou menor */
+@media screen and(max-width: 980px) {
+    #pagina {
+        width: 94%;
+    }
+    #conteudo{
+        width: 65%;
+    }
+    #lateral {
+        width: 30%;
+    }
+}
+/* 700px ou menor – removendo divse colocando auto e nonevai ocupar 100% tela*/
+@media screen and(max-width: 700px) {
+    #conteudo{
+        width: auto;
+        float: none;
+    }
+    
+    #lateral {
+        width: auto;
+        float: none;
+    }
+}
+/*  480px ormenor  - redefinir a altura da <div> “header” deixando-a automática, 
+mudar o tamanho da tag<h1> para 24px e esconder a <div> “sidebar”. */
+@media screen and(max-width: 480px) {
+    #cabecalho{
+        height: auto;
+    }
+    h1 {
+        font-size: 24px;
+    }
+    #lateral { 
+        /* naomostra a lateral */
+        display: none;
+    }
+}

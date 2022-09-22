@@ -1,0 +1,64 @@
+#pagina {
+    padding: 5px;
+    width: 960px; 
+    
+    /* tamanho mais comum usado */
+    margin: 20px auto;
+}
+
+/* Media queries/* /*  420px ou menor */
+@media (max-width: 420px) {
+    .bloco1{
+        width: 94%;
+        background-color: #0a4b71;
+        max-width: 50px;
+        height: 50px;
+    }
+}
+
+/* Media queries/* /*  768px ou menor */
+@media (max-width: 768px) {
+    .bloco2{
+        background-color: #f88c11;
+        width: 94%;
+        max-width: 50px;
+        height: 50px;
+    }
+}
+
+/* Media queries/* /*  1024px ou menor */
+@media (max-width: 1024px) {
+   .bloco3{
+        background-color: #fa5ada;
+        width: 94%;
+        max-width: 50px;
+        height: 50px;
+   }
+}
+
+/* Media queries/* /*  1366px ou menor */
+@media (max-width: 1366px) {
+   .bloco4{
+        background-color: #620c66;
+        max-width: 50px;
+        height: 50px;
+   }
+}
+
+/* Media queries/* /*  1080px ou menor */
+@media (max-width: 1080px) {
+   .bloco5{
+        background-color: #f9d89a;
+        max-width: 50px;
+        height: 50px;
+   }
+}
+
+/* Media queries/* /*  1920px ou menor */
+@media (max-width: 1920px) {
+   .bloco6{
+        background-color: #f8ee25;
+        max-width: 50px;
+        height: 50px;
+   }
+}
