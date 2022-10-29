@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Atividade 7</title>
+
+</head>
+
+<body>
+    <h2>Pedra, papel ou tesoura?!</h2>
+    <h3>Jogador: </h3>
+    <img src="img/pedra.png" width="70px" alt="pedra">
+    <img src="img/papel.png" width="70px" alt="papel">
+    <img src="img/tesoura.png" width="70px" alt="tesoura">
+    <form name="frmJogo">
+        <input type="radio" name="grupo" id="pedra"> PEDRA
+        <input type="radio" name="grupo" id="papel"> PAPEL
+        <input type="radio" name="grupo" id="tesoura"> TESOURA
+        <br>
+        <p>
+        <input type="button" value="JOGAR" onclick="jogar()">
+        </p>
+    </form>
+    <hr>
+    <h3>PAINEL</h3>
+    <img src="img/painel.png" alt="PC" id="pc">
+    <hr>
+    <h3 id="placar"></h3>
+    <script src="js/main.js"></script>
+</body>
+
+</html>
