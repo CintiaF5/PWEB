@@ -1,0 +1,10 @@
+body{
+    background-color: #12033D;
+    text-align: center;
+    color: white;
+}
+
+#imagem {
+    max-height: 80vh;
+}
+
