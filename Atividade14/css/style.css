@@ -1,0 +1,15 @@
+body{
+    text-align: justify;
+    background-color: beige;
+    margin-left: 30px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.radios {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+.pesquisa{
+    text-align: center;
+}
